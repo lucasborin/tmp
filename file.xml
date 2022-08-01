@@ -2,9 +2,11 @@
 <testsuites>
   <testsuite name="abaplint" tests="6764" failures="6764" errors="0" skipped="0">
     <testcase classname="cmm_cpe_formula-b-cpe.cfdx.xml" file="./log_cmm_prc/log_cmm_prc_bo/log_cmm_prc_formula/log_cmm_prc_formula_db/cmm_cpe_formula-b-cpe.cfdx.xml" name="./log_cmm_prc/log_cmm_prc_bo/log_cmm_prc_formula/log_cmm_prc_formula_db/cmm_cpe_formula-b-cpe.cfdx.xml: [1, 1] - registry_add">
-      <failure message="Unknown object type, currently not supported in abaplint, open issue on github" type="Error"><![CDATA[001 |﻿<?xml version="1.0" encoding="utf-8"?>
-    |^
-002 |<abapGit version="v1.0.0" serializer="ZCL_ABAPGIT_OBJECT_BY_SOBJ" serializer_version="1.0">]]></failure>
+      <failure message="Object name does not match pattern ^IF_CPE_: IF_EX_BADI_CMM_FBFIX_PRC" type="Warning"><![CDATA[
+
+01 | interface IF_EX_BADI_CMM_FBFIX_PRC
+   | ^
+02 |   public .]]></failure>
     </testcase>
   </testsuite>
 </testsuites>
