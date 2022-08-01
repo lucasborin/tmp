@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="abaplint" tests="6764" failures="6764" errors="0" skipped="0">
+    <testcase classname="" file="./log_cmm_prc/log_cmm_prc_bo/log_cmm_prc_formula/log_cmm_prc_formula_db/cmm_cpe_formula-b-cpe.cfdx.xml" name="./log_cmm_prc/log_cmm_prc_bo/log_cmm_prc_formula/log_cmm_prc_formula_db/cmm_cpe_formula-b-cpe.cfdx.xml: [1, 1] - registry_add">
+      <failure message="Unknown object type, currently not supported in abaplint, open issue on github" type="Error"><![CDATA[  1 |﻿<?xml version="1.0" encoding="utf-8"?>
+    |^
+  2 |<abapGit version="v1.0.0" serializer="ZCL_ABAPGIT_OBJECT_BY_SOBJ" serializer_version="1.0">]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
